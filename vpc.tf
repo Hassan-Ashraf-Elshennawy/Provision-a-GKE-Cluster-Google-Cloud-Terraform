@@ -1,5 +1,5 @@
-resource "google_compute_network" "vpc_network_gcp" {
+resource "google_compute_network" "vpc-network-gcp" {
   project                 = "GCP_PROJECT"
-  name                    = "vpc-network_gcp"
+  name                    = "vpc-network-gcp"
   auto_create_subnetworks = false
 }
