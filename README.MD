@@ -55,6 +55,24 @@ docker push gcr.io/"hussin-366113"/app:v1
 ____________________________________________________________________________________________
 
 ## Configuring and installing kubectl inside VM using gcloud
+![Screenshot from 2022-10-31 21-22-10](https://user-images.githubusercontent.com/111524157/199092877-55f4f26d-53d0-4da5-bd04-b8cba494ce17.png)
+
+![Screenshot from 2022-10-31 21-23-10](https://user-images.githubusercontent.com/111524157/199092894-50b5a7b7-28b4-4589-8378-4de6ec647574.png)
+
+
+hassan@private-vm:~$ curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-394.0.0-linux-x86_64.tar.gz
+
+hassan@private-vm:~$ tar -xf google-cloud-cli-394.0.0-linux-x86_64.tar.gz
+
+hassan@private-vm:~$ ./google-cloud-sdk/install.sh
+
+hassan@private-vm:~$ ./google-cloud-sdk/bin/gcloud init
+
+hassan@private-vm:~$ sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
+
+hassan@private-vm:~$ sudo apt-get install kubectl
+
+
 ___________________________________________________________________________________________
 ## applying all YAML deployment files
 
