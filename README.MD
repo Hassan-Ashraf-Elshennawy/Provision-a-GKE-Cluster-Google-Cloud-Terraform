@@ -67,7 +67,8 @@ kubectl -f aplly loadbalancer.yml
 kubectl -f apply app_deployment.yml
 ___________________________________________________________________________________________
 
-![Screenshot from 2022-10-31 18-28-23](https://user-images.githubusercontent.com/111524157/199059931-3aafbe66-9c6e-4c9e-a620-7972c4d44e07.png)
+![app](https://user-images.githubusercontent.com/111524157/199091650-07a3de2f-c41c-475b-b21a-d22933e52be0.jpg)
+
 
 ![Screenshot from 2022-10-31 18-30-44](https://user-images.githubusercontent.com/111524157/199059971-91f68057-2dda-400a-95bc-c9f633f1d440.png)
 
