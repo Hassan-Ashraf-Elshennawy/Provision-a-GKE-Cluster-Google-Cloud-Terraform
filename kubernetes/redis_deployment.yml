@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: gcr.io/"hussin-366113"/redis
+        image: redis
 
         ports:
         - containerPort: 6379
